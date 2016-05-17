@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+.bodycenter {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+    border: 1px solid #73AD21;
+}
+</style>
+</head>
+<body>
+  <div class="bodycenter">
+    <h1>python hello,world app with mysql backend</h1>
+    
+    {% for entry in entries %}
+        <div>
+            <div>{{ entry.title }}</div>
+            <div> {{ entry.content }}</div>
+        </div>
+    {% endfor %}
+    
+    <div class="footer">
+    <table>
+      <tr><td height="20"></td></tr>
+      <tr>
+        <td>Powered by</td>
+        <td><img src="http://ab71bc6cbe6c47bb5705-e80e692ba07dc44a759d7d5967b76d8a.r90.cf1.rackcdn.com/solum.png"
+         alt="Powered by Solum" height="30" width="70"></td>
+      </tr>
+    </table>
+    </div>
+  </div>
+</body>
+</html>
