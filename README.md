@@ -1,2 +1,2 @@
 # python-mysql
-This sample python web application that uses mysql database backend.
+This is a sample python web application that uses mysql database backend.
